@@ -1,0 +1,27 @@
+$index: calc(1vw + 1vh);
+$primary: #5B9F7A;
+$primary-text: #2E3241;
+$description: #8387A3;
+$danger: #D06060;
+$caution: #ECB93B;
+$blue: #5677FC;
+$primary-stroke: #E1E3F1;
+$userBg: #E5E6EF;
+$divider: #F2F4FF;
+$background: #F9F9FB;
+$background-hover: #F8F8FB;
+$background-dark: #F0F0F5;
+$background-blue: rgba(86, 119, 252, 0.14);
+$background-green: rgba(91, 159, 122, 0.10);
+
+@mixin image-full-contain {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@mixin image-full-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
